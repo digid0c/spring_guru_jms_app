@@ -11,6 +11,7 @@ import static org.springframework.jms.support.converter.MessageType.TEXT;
 public class JmsConfiguration {
 
     public static final String HELLO_WORLD_QUEUE = "hello-world";
+    public static final String REPLY_BACK_QUEUE = "reply-back";
 
     @Bean
     public MessageConverter messageConverter() {
